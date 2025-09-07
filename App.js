@@ -14,6 +14,7 @@ import SubmissionDetailScreen from './screens/SubmissionDetailScreen';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import AIEvaluationScreen from './screens/AIEvaluationScreen';
 import EvaluationScreen from './screens/EvaluationScreen';
+import DemoEvaluationScreen from './screens/DemoEvaluationScreen';
 import ProfileScreen from './screens/ProfileScreen';
 
 const Stack = createNativeStackNavigator();
@@ -94,10 +95,15 @@ function AppNavigator() {
               component={EvaluationScreen}
               options={{ title: 'Evaluate Submission' }}
             />
-            <Stack.Screen 
-              name="AIEvaluation" 
+            <Stack.Screen
+              name="AIEvaluation"
               component={AIEvaluationScreen}
               options={{ title: 'AI Evaluation' }}
+            />
+            <Stack.Screen
+              name="DemoEvaluation"
+              component={DemoEvaluationScreen}
+              options={{ title: 'Evaluation Demo' }}
             />
             <Stack.Screen
               name="Profile"
