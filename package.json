@@ -9,9 +9,9 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "@expo/metro-config": "^0.18.11",
+    "@expo/metro-config": "^0.20.17",
     "@expo/metro-runtime": "~5.0.4",
-    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-async-storage/async-storage": "^2.1.2",
     "@react-native-clipboard/clipboard": "^1.16.3",
     "@react-native-community/datetimepicker": "8.4.1",
     "@react-navigation/native": "^6.1.6",
@@ -21,7 +21,7 @@
     "expo-document-picker": "~13.1.6",
     "expo-status-bar": "~2.2.3",
     "i18n-js": "^4.5.1",
-    "metro": "^0.80.12",
+    "metro": "^0.82.0",
     "react": "19.0.0",
     "react-dom": "19.0.0",
     "react-native": "0.79.5",
@@ -29,7 +29,7 @@
     "react-native-pdf": "^6.7.7",
     "react-native-safe-area-context": "5.4.0",
     "react-native-screens": "~4.11.1",
-    "react-native-svg": "^15.12.1",
+    "react-native-svg": "^15.11.2",
     "react-native-vector-icons": "^10.3.0",
     "react-native-web": "^0.20.0",
     "react-native-webview": "13.13.5"
